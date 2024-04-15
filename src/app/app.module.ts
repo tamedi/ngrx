@@ -27,8 +27,8 @@ import { PrdouctItemComponent } from './components/products/products-list/prdouc
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    StoreModule.forRoot({catalogState:productsReducer}),
-    EffectsModule.forRoot([ProductsEffects]),
+    StoreModule.forRoot({catalogState:productsReducer}), // reducers
+    EffectsModule.forRoot([ProductsEffects]), //effects
     StoreDevtoolsModule.instrument()
   ],
   providers: [],

@@ -51,6 +51,7 @@ export class GetSelectedProductsActionError implements Action{
   }
 }
 
+//pour declarer les actions
 export type ProductsActions=
     GetAllProductsAction | GetAllProductsActionSuccess | GetAllProductsActionError
     | GetSelectedProductsAction | GetSelectedProductsActionSuccess | GetSelectedProductsActionError

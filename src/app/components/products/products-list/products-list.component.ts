@@ -8,7 +8,7 @@ import {ProductsState} from '../../../ngrx/products.reducer';
 })
 export class ProductsListComponent implements OnInit {
 
-  @Input() state:ProductsState|null=null;
+  @Input() state: ProductsState|null = null;
 
   constructor() { }
 
